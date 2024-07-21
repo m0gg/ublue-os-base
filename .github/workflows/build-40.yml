@@ -1,5 +1,6 @@
 name: ublue main 40
 on:
+  push:
   pull_request:
   merge_group:
   schedule:
