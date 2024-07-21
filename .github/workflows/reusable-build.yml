@@ -208,7 +208,7 @@ jobs:
               -v /dev/null:/usr/bin/fuse-overlayfs \
               -v /dev/null:/dev/kmsg \
               -w /builder \
-              quay.io/buildah/stable:v1 buildah "$@"
+              quay.io/buildah/stable:v1 buildah --storage-opt overlay.mount_program= "$@"
           EOF
           chmod +x /usr/local/bin/buildah
 
