@@ -6,6 +6,7 @@
                 "android-udev-rules",
                 "apr",
                 "apr-util",
+                "bootc",
                 "distrobox",
                 "ffmpeg",
                 "ffmpeg-libs",
